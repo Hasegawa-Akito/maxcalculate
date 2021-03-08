@@ -1,0 +1,142 @@
+.namesimilar{
+    display: none;
+}
+header{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(63, 28, 28);
+    color: white;
+    padding-top: 1%;
+}
+.headerlogo{
+    float: left;
+    margin-left: 5%;
+    
+}
+.main{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(224, 222, 220);
+    padding-top: 0;
+    float: left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincontent{
+    width:300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.login,.register{
+    
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10%;
+    width:280px;
+    height: 250px;
+    
+}
+.form-header{
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+}
+.memberlog{
+    
+    color: white;
+    margin: 0 auto;
+    height: 60%;
+    margin-top: 10%;
+    width: 80%;
+    padding-top: 5%;
+}
+.guestlog{
+    color: white;
+    margin: 0 auto;
+    
+    margin-top: 7%;
+    width: 80%;
+}
+
+
+.guestbutton{
+   background-color: rgb(96, 99, 100);
+   opacity: 0.6;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   width: 100%;
+   color: cornsilk;
+}
+.username,.password,.password-confirm{
+   padding-top: 6%;
+   padding-bottom: 6%;
+   margin-top: 3%;
+   background-color: rgb(117, 212, 243);
+   opacity: 0.6;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   width: 100%;
+}
+
+.submitbtn{
+    float: right;
+    margin-top: 5%;
+    background-color: rgb(15, 27, 31);
+    opacity: 0.6;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 30%;
+    color: cornsilk;
+}
+.regibtn{
+    display: none;
+}
+.opa:hover{
+    opacity: 1.0;
+}
+.opa:active{
+    opacity: 0.6;
+}
+
+.subcontent{
+    color: blue;
+    margin: 0 auto;
+    margin-top: 3%;
+    text-align: center;
+}
+
+
+
+.errorms{
+    text-align: center;
+    padding-top: 10%;
+    width: 100%;
+}
+.errorhead{
+    color: rgb(204, 48, 20);
+    margin: 0 auto;
+    
+    text-align: center;
+}
+.errorex{
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 0;
+}
+.redirect{
+    float: left;
+    margin-left: 30%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+
+.pass-con-ms{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: black;
+}

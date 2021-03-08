@@ -1,0 +1,189 @@
+.form{
+    width: 100%;
+}
+.weight{
+    width: 30%;
+    
+}
+.length{
+    width: 30%;
+    float: left;
+}
+.form-check-input{
+    transform: scale(1.5);
+    
+}
+.form-check{
+    margin-left: 10px;
+    padding-top: 10px;
+    float: left;
+}
+.submit{
+    width: 30%;
+    float: left;
+}
+#button{
+    display: none;
+}
+.member{
+    width: 100%;
+    height:550px;
+    background-color: rgb(176, 179, 182);
+}
+.member-header{
+    background-color: rgb(52, 58, 64);
+    width: 100%;
+    height:12%;
+}
+.menumark{
+    float:left;
+    height: 100%;
+    width : 18%;
+    background-color: white;
+}
+.recordmark{
+    float:left;
+    height: 100%;
+    width : 18%;
+    margin-left: 1%;
+    background-color: white;
+}
+.menu-trigger{
+    height: 100%;
+    width : 100%;
+    margin-top: 0;
+    outline: none;
+    border: none;
+    background-color: rgba(52, 58, 64,0.8);
+    color: white;
+}
+.record-trigger{
+    height: 100%;
+    width : 100%;
+    margin-top: 0;
+    outline: none;
+    border: none;
+    background-color: rgba(52, 58, 64,0.8);
+    color: white;
+}
+.opa:hover{
+    background-color: rgba(52, 58, 64,0.9);
+}
+.opa:active{
+    background-color: rgba(52, 58, 64,0.8);
+}
+
+.menu{
+    display: none;
+    width: 18%;
+    height: 80%;
+    z-index:2;
+    background-color: rgba(236, 238, 241, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 80%;
+}
+.record-menu{
+    display: none;
+    width: 18%;
+    height: 80%;
+    z-index:2;
+    background-color: rgba(236, 238, 241, 1);
+    position: absolute;
+    top: 0;
+    left: 19%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 80%;
+}
+
+.profile{
+    height: 100%;
+    color: white;
+    font-size: 80%;
+    float: right;
+    margin-right: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profilename{
+    margin-right: 5px;
+}
+.center{
+    text-align: center;
+}
+.text{
+    width: 50%;
+    height: 90%;
+    border:2px solid rgb(33, 33, 34);
+    margin: 0 auto;
+    margin-top: 2%;
+    border-radius: 0.67em; 
+    padding-top: 3%;
+    
+}
+.comment{
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    float:left;
+    z-index: 1;
+    position: relative;
+    
+}
+.comment_header{
+    width: 50%;
+    text-align: center;
+    padding-top: 3%;
+    border-bottom:2px solid black;
+}
+
+.target{
+    float: right;
+    margin-right: 0;
+    padding-right: 0;
+    width:45%;
+    height:100%;
+    margin-right: 5%;
+}
+.target-form{
+    width:100;
+}
+.targetweight{
+    width:90%;
+    margin: 0 auto;
+    margin-right: 0;
+    margin-bottom: 2%;
+    
+}
+.set-form{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.set{
+    float: right;
+    display: none;
+}
+.targetnum{
+    float: right;
+    width: 90%;
+    margin-top: 6%;
+    padding:2%;
+    border-radius:3%;
+    background-color: white;
+    text-align: center;
+}
+h2{
+    font-size: 1.2em;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
